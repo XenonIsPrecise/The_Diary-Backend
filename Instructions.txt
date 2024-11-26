@@ -1,0 +1,27 @@
+After Creating config files and installing necesasry packages, \
+Create routes and use express router to handle requests.
+Also in server js  using app.use to moun the router and make the routes more cleaner.
+Create a controller file to handle the logic of the routes.
+Connect the controller route functions to the routes file.
+Create middleware folder and put the middleware functions in it.
+Set up Postman or any other API testing tool to test the routes.
+(Can be useful for documentation later on)
+Setup any database and connect its gui or in your application through code.
+*** NOTE ***
+
+(If you want any router to work before /:id, you need to put that router above the /:id router. \)
+(See the secret route that i created for example)
+# You donot have to put function above the route but put the router.route above the /:id route.
+
+
+Middleware:
+(It is just a function that has access to the request and response object.
+  which can be accessed by any route in the application.)\
+# If you just create a middleware globally it will run for every route in the application whenever
+you hit any routes. But they can also be used for specific routes by passing them as a second argument to the route
+after you import the middleware in the routes file.
+
+Postman:
+Create a enviroment and setup enviroment variables like URL for making your life easier.
+Create a collection and add requests to it.
+
