@@ -7,6 +7,8 @@ Create middleware folder and put the middleware functions in it.
 Set up Postman or any other API testing tool to test the routes.
 (Can be useful for documentation later on)
 Setup any database and connect its gui or in your application through code.
+Handle unhandled promise rejections and uncaught exceptions in server.js file.
+or You cann just use try catch in mongodb function directly.
 *** NOTE ***
 
 (If you want any router to work before /:id, you need to put that router above the /:id router. \)
@@ -24,4 +26,5 @@ after you import the middleware in the routes file.
 Postman:
 Create a enviroment and setup enviroment variables like URL for making your life easier.
 Create a collection and add requests to it.
+Add presets to the requests like headers, body, etc.
 
