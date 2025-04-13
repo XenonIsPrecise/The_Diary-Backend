@@ -28,3 +28,6 @@ Create a enviroment and setup enviroment variables like URL for making your life
 Create a collection and add requests to it.
 Add presets to the requests like headers, body, etc.
 
+# You can also add tests to the requests to check if the response is correct or not.
+# You can also add pre-request scripts to the requests to check if the response is correct or not.
+# You can also add pre-request scripts to the requests to check if the response is correct or not.
